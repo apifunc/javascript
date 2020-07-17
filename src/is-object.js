@@ -7,6 +7,7 @@ jlogs('exist?','isObject');
  */
 function isObject(val) {
     return val !== null &&
+        !(val instanceof Array) &&
         (typeof val === 'object' && Object.keys(val).length > 0)
         ;
 }
