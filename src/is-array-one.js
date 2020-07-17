@@ -1,13 +1,13 @@
 // is-array.js
-jlogs('exist?','isArray');
+jlogs('exist?','isArrayOne');
 /**
  *
  * @param val
  * @returns {boolean}
  */
-function isArray(val) {
+function isArrayOne(val) {
     return val !== null &&
-        (val instanceof Array)
+        (val instanceof Array && Object.keys(val).length === 1)
     // obj.constructor.toString().indexOf("Array") != -1
         ;
 }
