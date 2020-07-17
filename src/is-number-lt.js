@@ -6,7 +6,7 @@ jlogs('exist?','isNumberLt');
  * @returns {boolean}
  */
 function isNumberLt(val, number) {
-    return val !== null ||
+    return val !== null &&
         (typeof val === 'number' && val < number)
         ;
 }

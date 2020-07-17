@@ -86,4 +86,7 @@
   <component name="PreferredVcsStorage">
     <preferredVcsName>ApexVCS</preferredVcsName>
   </component>
+  <component name="UnicodeBrowser">
+    <option name="fontName" value="Lucida Console" />
+  </component>
 </project>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/apifunc-javascript.iml" filepath="$PROJECT_DIR$/.idea/apifunc-javascript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/apifunc-js.iml" filepath="$PROJECT_DIR$/.idea/apifunc-js.iml" />
     </modules>
   </component>
 </project>

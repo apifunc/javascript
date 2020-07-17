@@ -6,7 +6,7 @@ jlogs('exist?','isNumberGt');
  * @returns {boolean}
  */
 function isNumberGt(val, number) {
-    return val !== null ||
+    return val !== null &&
         (typeof val === 'number' && val > number)
         ;
 }

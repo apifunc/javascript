@@ -6,7 +6,7 @@ jlogs('exist?','isBoolean');
  * @returns {boolean}
  */
 function isBoolean(val) {
-    return val !== null ||
+    return val !== null &&
         (typeof val === 'boolean')
         ;
 }

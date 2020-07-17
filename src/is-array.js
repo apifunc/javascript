@@ -6,7 +6,7 @@ jlogs('exist?','isArray');
  * @returns {boolean}
  */
 function isArray(val) {
-    return val !== null ||
+    return val !== null &&
         (typeof val === 'object' && Object.keys(val).length > 0)
         ;
 }

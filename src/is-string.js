@@ -6,7 +6,7 @@ jlogs('exist?','isString');
  * @returns {boolean}
  */
 function isString(val) {
-    return val !== null ||
+    return val !== null &&
         (typeof val === 'string' && val.length > 0)
         ;
 }

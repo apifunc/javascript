@@ -6,7 +6,7 @@ jlogs('exist?','isNumber');
  * @returns {boolean}
  */
 function isNumber(val) {
-    return val !== null ||
+    return val !== null &&
         (typeof val === 'number')
         ;
 }

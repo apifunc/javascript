@@ -7,7 +7,7 @@ jlogs('exist?','isString');
  */
 function isString(val, type) {
     // base64, md5
-    return val !== null ||
+    return val !== null &&
         (typeof val === 'string' && val.length > 0)
         ;
 }
