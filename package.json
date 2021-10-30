@@ -21,7 +21,7 @@
     "FaaS",
     "Softreck"
   ],
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "xo && ava && tsd",
     "build": "echo \"Error: no test specified\" && exit 1"
