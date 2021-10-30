@@ -1,6 +1,12 @@
 # javascript
 Basic functions for JavaScript/NodeJS
 
+## START
+
+    npm install
+
+    npm test
+
 ## Changelog
 + [changelog.md](changelog.md)
 
