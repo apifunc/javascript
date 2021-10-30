@@ -6,8 +6,8 @@
  * @param {number} val
  * @returns {boolean}
  */
-function isNumber(val) {
-	return val !== null && typeof val === 'number';
+function isNumberNegative(val) {
+	return val !== null && typeof val === 'number' && val < 0;
 }
 
-module.exports = isNumber;
+module.exports = isNumberNegative;
