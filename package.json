@@ -1,29 +1,32 @@
 {
-  "name": "@apifunc/js",
-  "productName": "apifunc js",
-  "version": "1.0.3",
-  "license": "MIT",
-  "repository": "apifunc/js",
-  "homepage": "https://js.apifunc.com",
-  "bugs": {
-    "url": "https://github.com/apifunc/js/issues"
-  },
-  "author": {
-    "name": "Tom Sapletta",
-    "email": "tom@sapletta.com"
-  },
-  "description": "portable version of apifunc js",
-  "keywords": [
-    "Project",
-    "scripts",
-    "express",
-    "pwa",
-    "FaaS",
-    "Softreck"
-  ],
-  "private": false,
-  "scripts": {
-    "test": "xo && ava && tsd",
-    "build": "echo \"Error: no test specified\" && exit 1"
-  }
+	"name": "@apifunc/js",
+	"productName": "apifunc js",
+	"version": "1.0.3",
+	"license": "MIT",
+	"repository": "apifunc/js",
+	"homepage": "https://js.apifunc.com",
+	"bugs": {
+		"url": "https://github.com/apifunc/js/issues"
+	},
+	"author": {
+		"name": "Tom Sapletta",
+		"email": "tom@sapletta.com"
+	},
+	"description": "portable version of apifunc js",
+	"keywords": [
+		"Project",
+		"scripts",
+		"express",
+		"pwa",
+		"FaaS",
+		"Softreck"
+	],
+	"private": false,
+	"scripts": {
+		"test": "jest",
+		"build": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"jest": "^27.3.1"
+	}
 }

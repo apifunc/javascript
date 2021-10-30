@@ -1,12 +1,12 @@
-// is-array.js
-jlogs('exist?','isNumber');
-/**
- *
- * @param val
- * @returns {boolean}
- */
+// // is-array.js
+// jlogs('exist?','isNumber');
+// /**
+//  *
+//  * @param val
+//  * @returns {boolean}
+//  */
 function isNumber(val) {
-    return val !== null &&
-        (typeof val === 'number')
-        ;
+	return val !== null && typeof val === 'number';
 }
+
+module.exports = isNumber;
