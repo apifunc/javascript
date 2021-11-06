@@ -1,5 +1,5 @@
 // xhr.js
-jlogs('exist?','getXHRObject');
+// jlogs('exist?','getXHRObject');
 /**
  * @returns {boolean}
  */
@@ -23,3 +23,4 @@ function getXHRObject() {
         return xhrObj;
     }
 }
+module.exports = getXHRObject;

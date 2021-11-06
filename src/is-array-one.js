@@ -1,5 +1,5 @@
 // is-array.js
-jlogs('exist?','isArrayOne');
+// jlogs('exist?','isArrayOne');
 /**
  *
  * @param val
@@ -11,3 +11,4 @@ function isArrayOne(val) {
     // obj.constructor.toString().indexOf("Array") != -1
         ;
 }
+module.exports = isArrayOne;

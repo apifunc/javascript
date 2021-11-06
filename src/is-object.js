@@ -1,5 +1,5 @@
 // is-array.js
-jlogs('exist?','isObject');
+// jlogs('exist?','isObject');
 /**
  *
  * @param val
@@ -11,3 +11,4 @@ function isObject(val) {
         (typeof val === 'object' && Object.keys(val).length > 0)
         ;
 }
+module.exports = isObject;

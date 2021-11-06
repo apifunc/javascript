@@ -27,3 +27,5 @@ function createCORSRequest(method, url) {
     }
     return xhr;
 }
+
+module.exports = createCORSRequest;

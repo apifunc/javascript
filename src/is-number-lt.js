@@ -1,5 +1,5 @@
 // is-array.js
-jlogs('exist?','isNumberLt');
+// jlogs('exist?','isNumberLt');
 /**
  *
  * @param val
@@ -10,3 +10,4 @@ function isNumberLt(val, number) {
         (typeof val === 'number' && val < number)
         ;
 }
+module.exports = isNumberLt;

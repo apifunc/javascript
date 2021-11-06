@@ -1,5 +1,5 @@
 // is-array.js
-jlogs('exist?','isNumberGt');
+// jlogs('exist?','isNumberGt');
 /**
  *
  * @param val
@@ -10,3 +10,4 @@ function isNumberGt(val, number) {
         (typeof val === 'number' && val > number)
         ;
 }
+module.exports = isNumberGt;

@@ -1,5 +1,5 @@
 // is-array.js
-jlogs('exist?','isString');
+// jlogs('exist?','isString');
 /**
  *
  * @param val
@@ -10,3 +10,4 @@ function isString(val) {
         (typeof val === 'string' && val.length > 0)
         ;
 }
+module.exports = isString;

@@ -1,5 +1,5 @@
 // is-array.js
-jlogs('exist?','isArrayMany');
+// jlogs('exist?','isArrayMany');
 /**
  *
  * @param val
@@ -11,3 +11,4 @@ function isArrayMany(val) {
     // obj.constructor.toString().indexOf("Array") != -1
         ;
 }
+module.exports = isArrayMany;

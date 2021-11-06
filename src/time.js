@@ -1,6 +1,7 @@
 //time.js
-jlogs('exist?','time');
+// jlogs('exist?','time');
 
 var time = Date.now || function () {
     return +new Date;
 };
+module.exports = time;
