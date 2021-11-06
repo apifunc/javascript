@@ -4,6 +4,7 @@
  * ułamek respektowany w JS
  *
  * @param {number} val
+ *
  * @returns {boolean}
  */
 function isNumber(val) {

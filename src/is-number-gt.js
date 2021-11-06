@@ -3,6 +3,8 @@
 /**
  *
  * @param val
+ * @param number
+ *
  * @returns {boolean}
  */
 function isNumberGt(val, number) {
