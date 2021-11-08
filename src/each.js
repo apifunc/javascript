@@ -1,5 +1,5 @@
 // each.js
-jlogs('exist?','each');
+//jlogs('exist?','each');
 
 /**
  *
@@ -51,3 +51,5 @@ var firstArray = function (array) {
 var lastArray = function (array) {
     return array.slice(-1);
 }
+
+module.exports = each;

@@ -1,5 +1,5 @@
 // is-array.js
-jlogs('exist?','isBoolean');
+// jlogs('exist?','isBoolean');
 /**
  *
  * @param val
@@ -10,3 +10,4 @@ function isBoolean(val) {
         (typeof val === 'boolean')
         ;
 }
+module.exports = isBoolean;

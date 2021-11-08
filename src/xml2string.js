@@ -7,3 +7,4 @@ function xml2string(node) {
         return node.xml;
     }
 }
+module.exports = xml2string;

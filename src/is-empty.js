@@ -1,5 +1,5 @@
 // is-empty.js
-jlogs('exist?','isEmpty');
+// jlogs('exist?','isEmpty');
 /**
  *
  * @param val
@@ -22,7 +22,7 @@ function isEmpty(val) {
         // (typeof val !== 'boolean')
         ;
 }
-
+module.exports = isEmpty;
 //
 // function isEmpty(obj) {
 //     for (var prop in obj) {

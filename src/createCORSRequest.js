@@ -2,6 +2,7 @@
 /**
  * @param method
  * @param url
+ *
  * @returns {{withCredentials}|XDomainRequest}
  */
 function createCORSRequest(method, url) {
@@ -27,3 +28,5 @@ function createCORSRequest(method, url) {
     }
     return xhr;
 }
+
+module.exports = createCORSRequest;

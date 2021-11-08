@@ -1,10 +1,10 @@
 // has-domain.js
-// jlogs('exist?','hasDomain');
+//jlogs('exist?','isUrl');
 /**
  * @param url
  * @returns {boolean}
  */
-var hasDomain = function (url) {
+var isUrl = function (url) {
     return url.indexOf('//') === 0 || url.indexOf('http://') === 0 || url.indexOf('https://') === 0;
 }
-module.exports = hasDomain;
+module.exports = isUrl;

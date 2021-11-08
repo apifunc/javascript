@@ -1,5 +1,5 @@
 // is-array.js
-jlogs('exist?','isArrayNotEmpty');
+// jlogs('exist?','isArrayNotEmpty');
 /**
  *
  * @param val
@@ -10,3 +10,4 @@ function isArrayNotEmpty(val) {
         (val instanceof Array && Object.keys(val).length > 0)
         ;
 }
+module.exports = isArrayNotEmpty;

@@ -1,5 +1,5 @@
 // is-array.js
-jlogs('exist?','isStringEncoded');
+// jlogs('exist?','isStringEncoded');
 /**
  *
  * @param val
@@ -11,3 +11,4 @@ function isStringEncoded(val, type) {
         (typeof val === 'string' && val.length > 0)
         ;
 }
+module.exports = isStringEncoded;
