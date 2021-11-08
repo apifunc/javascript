@@ -23,8 +23,7 @@
 	],
 	"private": false,
 	"scripts": {
-		"test": "jest",
-		"build": "echo \"Error: no test specified\" && exit 1"
+		"test": "jest"
 	},
 	"devDependencies": {
 		"jest": "^27.3.1"
