@@ -29,3 +29,10 @@ We are doing it for our customers, that they can be sure that the code ist teste
 ## npmjs
 + [https://www.npmjs.com/settings/sapletta/packages](https://www.npmjs.com/settings/sapletta/packages)
 
+
+---
++ [edit](https://github.com/apifunc/js/edit/master/README.md)
+
+```
+https://github.com/apifunc/js.git
+```
