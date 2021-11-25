@@ -5,6 +5,7 @@ test('Check if we are passing an empty values', () => {
     expect( isArrayNotEmpty('') ).toBe( false );
     expect( isArrayNotEmpty(null) ).toBe( false );
     expect( isArrayNotEmpty() ).toBe( false );
+    expect( isArrayNotEmpty({}) ).toBe( false );
 });
 
 test('Check if we are passing an array with values', () => {
